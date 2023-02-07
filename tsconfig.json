@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@": ["src"],
+      "@/*": ["src/*","components.d.ts"]
+    },
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "ES2015",
+    "module": "ESNext",
+    // 忽略所有的声明文件（ *.d.ts）的类型检查。
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    // 决定如何处理模块。
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom"]
+  }
+}
