@@ -8,4 +8,6 @@ import { reactive, ref } from 'vue';
 const data = reactive(['sdf']);
 
 const data1 = reactive(['sdf']);
+
+const data2 = reactive(['sdf', 'asdas']);
 </script>
