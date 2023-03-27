@@ -7,5 +7,5 @@ import { reactive, ref } from "vue";
 
 const data = reactive(["sdf"]);
 
-
+const data1 = reactive(["sdf"]);
 </script>
