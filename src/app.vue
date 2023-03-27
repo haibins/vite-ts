@@ -6,4 +6,6 @@
 import { reactive, ref } from "vue";
 
 const data = reactive(["sdf"]);
+
+
 </script>
