@@ -13,7 +13,7 @@ declare module '@vue/runtime-core' {
     Notice: typeof import('./src/components/toast/notice.vue')['default']
     NoticeList: typeof import('./src/components/toast/noticeList.vue')['default']
     StarTwoTone: typeof import('@ant-design/icons-vue')['StarTwoTone']
-    Tree: typeof import('./src/components/tree/Tree.vue')['default']
-    TreeNode: typeof import('./src/components/tree/TreeNode.vue')['default']
+    Tree: typeof import('./src/components/tree/index.vue')['default']
+    TreeNode: typeof import('./src/components/tree/treeNode.vue')['default']
   }
 }
