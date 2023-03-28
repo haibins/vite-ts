@@ -10,6 +10,8 @@ declare module '@vue/runtime-core' {
         AButton: typeof import('ant-design-vue/es')['Button'];
         APagination: typeof import('ant-design-vue/es')['Pagination'];
         CloseOutlined: typeof import('@ant-design/icons-vue')['CloseOutlined'];
+        RouterLink: typeof import('vue-router')['RouterLink'];
+        RouterView: typeof import('vue-router')['RouterView'];
         StarTwoTone: typeof import('@ant-design/icons-vue')['StarTwoTone'];
     }
 }
