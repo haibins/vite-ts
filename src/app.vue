@@ -1,13 +1,7 @@
 <template>
-    <div class="container">App</div>
+    <div class="container">
+        <RouterView />
+    </div>
 </template>
 
-<script setup lang="ts">
-import { reactive, ref } from 'vue';
-
-const data = reactive(['sdf']);
-
-const data1 = reactive(['sdf']);
-
-const data2 = reactive(['sdf', 'asdas']);
-</script>
+<script setup lang="ts"></script>
